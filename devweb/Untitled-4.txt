@@ -1,0 +1,18 @@
+def ETPUIS(l:list[any])->int:
+    """Afficher les éléments d'une liste"""
+    fort elt in l:
+        print(elt)
+
+
+
+        #correction exercice 6#
+
+
+def ETPUIS(l:liste[any])->int:
+    """Affiche les éléments entrecoupés de "et puis" """
+    N=len(l)
+    for i in range(0,N-1):
+        print(l[i])
+        print("et puis")
+    print(l[N-1])
+    return N

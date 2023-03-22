@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+def triInsertion (elements:list[int)]
+	list[int]
+	“””tri par insertion de nombres entiers 
+    N = len(elements)
+  
+    for i in range(0,N):
+	    j=i
+	   
+       
+       
+        while j>0 and elements entree[j-1]> elements[j]
+
+		   
+            tmp = elements[j-1]
+		    elements[j-1]=elements[j]
+		    elements[j]=tmp		                          
+           
+            j=j-1
+
+return entree

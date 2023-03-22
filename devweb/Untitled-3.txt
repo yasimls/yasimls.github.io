@@ -1,0 +1,11 @@
+def pairs(liste:list[int]) -> list[int]:
+    """une liste de nombres entiers et renvoyant la liste contant tous les entiers pairs"""
+    resultat : list[int]=[]
+    for nombre in liste:
+            if nombre%2 == 0:
+                resultat=resultat+[nombre]
+
+    return resultat
+
+
+    
