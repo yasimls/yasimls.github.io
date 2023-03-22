@@ -1,0 +1,20 @@
+body {
+    background-color: #7af59f;
+  }
+
+p {
+  color: #f4f4f4;
+  background-color: #b73e26;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+h1 {
+    color: #48d6f6;
+    background-color: #f5f57a;
+    font-family: Arial Narrow;
+    text-justify: auto;
+  }
+
+
+  div * p {
+  color: #4d1ecf
+  }

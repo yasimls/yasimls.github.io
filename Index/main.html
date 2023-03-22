@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Control Final</title>
+  <link rel="stylesheet" type="text/css" href="mainPDF.css" media="print" />
+</head>
+
+<body>
+
+
+  <img src="C:\Users\yimou\mipdrop.github.io\Index\logoupec.png" alt="Description de l'image" width="200" height="150">
+  
+
+  
+
+
+  <h1>Lettre </h1>
+
+  <h3>De:</h3>
+
+  <div>
+    <label for="nom">Votre nom</label>
+    <input type="text" id="nom" name="nom" placeholder="Dupond" required>
+  </div>
+  <div>
+    <label for="prenom">Votre prénom</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+  </div>
+
+  <div>
+    <label for="email">Votre e-mail</label>
+    <input type="email" id="email" name="email" placeholder="Jeandupon@mail.com" required>
+  </div>
+  
+  <div>
+    <label for="date">Date de l'envoie de votre lettre</label>
+    <input type="date" id="date" name="date" placeholder="01/01/2022" required>
+  </div>
+
+  <h3>Pour</h3>
+
+  <div>
+    <label for="nom">Nom du destinataire</label>
+    <input type="text" id="nom" name="nom" placeholder="Dupond" required>
+  </div>
+  <div>
+    <label for="prenom">Prénom du destinataire</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+  </div>
+
+  <div>
+    <label for="email">Email du destinataire</label>
+    <input type="email" id="email" name="email" placeholder="Jeandupon@mail.com" required>
+  </div>
+
+  <h3>Quel est l'objet de votre lettre ?</h3>
+
+  <div>
+    <h3><label for="objet">Quel est l'objet de votre lettre ?</label></h3>
+    <select name="objet" id="objet" required>
+      <option value="" disabled selected hidden>Choisissez l'objet de votre lettre</option>
+      <option value="droit-acces"> Demander mon Droit d’accès à mes données personnelles</option>
+      <option value="criteres">Demander les critères de sélection au M1 droit du numérique option Informatique et Droit de l'UPEC</option>
+      <option value="prerequis">Demander les prérequis pour une inscription au M1 droit du numérique option Informatique et Droit de l'UPEC </option>
+    </select>
+  </div>
+  <div>
+    <label for="message">Autre</label>
+    <textarea id="message" name="message" placeholder="...." required></textarea>
+  </div>
+
+
+  <h3> Etes vous actuellement étudiant du Master droit du numérique option Informatique et Droit de l'UPEC ?</h3>
+    <div>
+      <input type="checkbox" id="case1" name="groupe1" value="case 1">
+      <labell for="case1">OUI</label>
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" id="case2" name="groupe1" value="case 2">
+      <labell for="case2">NON</label>
+    </div>
+
+
+
+
+    <div>
+      <label for="message">Autre Votre TEXTE</label>
+      <textarea id="message" name="message" placeholder="...." required></textarea>
+    </div>
+
+
+  <p>Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées.</p>
+
+  <div>
+    <label for="signature">Votre Signature</label>
+    <input type="text" id="signature" name="signature" placeholder="Jean Dupond" required>
+  </div>
+
+  
+
+
+</body>
+
+</html>

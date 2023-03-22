@@ -1,0 +1,66 @@
+#page {
+    /*Modifications : suppression de la bordure - marges */
+    margin: 0;
+    border: none;
+}
+
+#banner,
+#menuright,
+#footer {
+    /*Les éléments qui ne seront pas affichés */
+    display: none;
+}
+
+
+h2,
+h3,
+#contenu h3,
+#contenu a,
+a {
+    /*Modification de la couleur des titres et liens*/
+    color: rgb(212, 78, 78);
+}
+
+#case1:not(:checked) {
+    /*toutes les input de type checkbox ne sont pas cochées ne seront pas visibles*/
+    display: none;
+    visibility: hidden;
+}
+
+h1 {
+    color: brown;
+}
+
+body {
+    -webkit-print-color-adjust: exact !important;
+    /*prendre en compte en compte le background au moment de l'impression + exact !important : prendre le dessus sur tout le reste */
+    print-color-adjust: exact !important;
+    /*meme chose que la haut mais on mets les deux car diff navigateur */
+}
+
+body>* {
+    background-color: aqua;
+}
+
+/*<* veut dire tous les éléments qui sont dans body*/
+
+label {
+    visibility: hidden;
+}
+
+#case2:not(:checked) {
+    /*toutes les input de type checkbox ne sont pas cochées ne seront pas visibles*/
+    display: none;
+    visibility: hidden;
+}
+
+#case3:not(:checked) {
+    /*toutes les input de type checkbox ne sont pas cochées ne seront pas visibles*/
+    display: none;
+    visibility: hidden;
+}
+
+
+labell*#case3:not(:checked)  {
+    visibility: hidden;
+}

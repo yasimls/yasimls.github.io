@@ -1,0 +1,95 @@
+body {
+    /*Modifications : la police - l'unité utilisée pour la taille de la police */
+    font-family: "helvetica";
+    font-size: 15pt;
+}
+
+#page {
+    /*Modifications : suppression de la bordure - marges */
+    margin: 0;
+    border: none;
+}
+
+
+h1#top {
+    /*Affichage du titre*/
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    line-height: 25pt;
+    font-size: 25pt;
+}
+
+
+h3 {
+    color: brown;
+}
+
+label {
+    visibility: hidden;
+}
+
+/* ici on va cacher toutes les questoins qui sont taguer avec le mot label, comme ca, lorsque l'on va imprimer, on aura que les réponses et non les questions */
+
+input[type="checkbox"]+labell {
+    display: none;
+}
+
+/* ici on va cacher toutes les OUI et les NOMS qui sont entourés de balise labell. donc quand la case n'est pas coché le OUI et le NON ne s'affiche */
+
+input[type="checkbox"]:checked+labell {
+    display: block;
+}
+
+/* ici on va afficher le OUI et le NON qui sont entourés de balise labell. Si la case OUI ou NON est cochée, alors le oui s'affiche et le NON aussi*/
+
+
+#case1:not(:checked) {
+    /*toutes les input de type checkbox qui ne sont pas cochées ne seront pas visibles. J'ai pris un autre système car le premier pour Labell ne fonctinne pas pour les cases je ne sais pas pourquoi*/
+    display: none;
+    visibility: hidden;
+}
+
+#case2:not(:checked) {
+    /*toutes les input de type checkbox qui ne sont pas cochées ne seront pas visibles*/
+    display: none;
+    visibility: hidden;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+
+label{
+    border:0ch;
+}
+
+label{
+    border : none;
+}
+
+
+
+/*avec cette balise, il n'y a que le OUI et le NON qui s'affiche sans que les cases ne soient visibles lorsqu'on les coche sur le HTML*/
+
+/* Je n'ai pas réussi à supprimer les bords des formulaires mais voici tout ce que j'ai essayé
+
+  fieldset {
+    border: none;
+  }
+
+  #champ {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+  }
+
+  #champ {
+    opacity: 0;
+    position: absolute;
+  }
+  div{
+    border:none
+

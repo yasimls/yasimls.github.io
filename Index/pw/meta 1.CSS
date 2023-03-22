@@ -1,0 +1,27 @@
+  body {
+    background-color: #7af59f;
+  }
+
+  div * p {
+    color: #f57a7a; 
+  }
+
+  div * li {
+    color: #ffffff; 
+  }
+
+  .titi li .sel { 
+    font-size : 50px; 
+  }
+  
+  #menu > P {
+    color:rgb(219, 241, 50);
+  }
+
+  h1 + h2 { 
+    margin-top: -5mm; 
+  }
+  h1.opener + h2 { margin-bottom: 10mm;
+   } 
+  h2 + p { margin-top: 500px;
+   }

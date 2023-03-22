@@ -1,0 +1,80 @@
+body {
+    color:black;
+    background-color:white;
+    background-image:url(C:/Users/yimou/mipdrop.github.io/pw/controle/cement.jpg);
+    }
+
+h1 {
+    text-align: center;
+    }
+h2 {
+    color: rgb(31, 79, 250);
+    background-color:grey
+    }
+  
+p {
+    text-align: justify;
+    text-indent: 16px;
+    }
+
+.surligne{
+    background-color:seashell
+}
+
+#cadre1 > .surligne{
+    background-color:seashell;   
+}
+
+#cadre1 * .surligne{
+    background-color:yellow;
+}
+#cadre2 * .surligne{
+    background-color:yellow;
+}
+
+#cadre2 > .surligne{
+    background-color:seashell;
+}
+
+p >.surligne {
+    background-color: yellow;
+}
+
+.surligne > p {
+    background-color: slateblue;
+}
+
+
+
+ol > li {
+    list-style-type: upper-roman;
+}
+
+ol > li > ol > li {
+    list-style-type: lower-alpha; /* pour toutes les listes */
+}
+
+ol > li > ol > li > ol > li {
+    list-style-type: lower-roman; /* pour toutes les listes */
+}
+
+nav {
+    display: block;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14pt;
+    text-decoration: overline
+    color rgb(31, 79, 250);
+} 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
